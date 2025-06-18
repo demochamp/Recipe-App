@@ -194,12 +194,43 @@ form button[type="submit"]:hover,
 }
 
 /* Responsive Code */
-@media screen and (max-width:600px){
-    header nav{
+/* Responsive Code */
+@media screen and (max-width: 600px) {
+    header nav {
         flex-direction: column;
+        align-items: center;
     }
-    header nav form{
-        width: 80%;
-        margin-top: 20px;
+
+    header nav form {
+        width: 90%;
+        margin-top: 15px;
+    }
+
+    .recipe-container {
+        grid-template-columns: 1fr;
+        width: 95%;
+        padding: 10px;
+        justify-items: center;
+    }
+
+    .recipe {
+        align-items: center;
+        margin: auto;
+        max-width: 90%;
+    }
+
+    .recipe img {
+        width: 100%;
+        height: auto;
+    }
+
+    .recipe h3, .recipe p, .recipe button {
+        text-align: center;
+    }
+
+    .recipe-details {
+        width: 90%;
+        height: 70%;
+        font-size: 18px;
     }
 }
