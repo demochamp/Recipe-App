@@ -1,11 +1,11 @@
 const CACHE_NAME = 'recipe-app-cache-v1';
 const urlsToCache = [
-  './',
-  './index.html',
-  './style.css',
-  './script.js',
-  './icons/icon-192x192.png',
-  './icons/icon-512x512.png'
+  '/Recipe-App/',
+  '/Recipe-App/index.html',
+  '/Recipe-App/style.css',
+  '/Recipe-App/script.js',
+  '/Recipe-App/icons/icon-192x192.png',
+  '/Recipe-App/icons/icon-512x512.png'
 ];
 
 self.addEventListener('install', event => {
